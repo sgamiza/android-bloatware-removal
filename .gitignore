@@ -1,0 +1,61 @@
+# Android and Gradle output
+.gradle/
+local.properties
+*.iml
+.idea/
+**/build/
+build/
+dist/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Packages and binary releases
+*.apk
+*.aab
+*.apks
+*.xapk
+*.zip
+*.7z
+*.tar
+*.gz
+*.lnk
+
+# Device-specific exports and diagnostics
+device-data/
+device-output/
+package-lists/
+bugreports/
+logs/
+log/
+output/
+downloads/
+*.log
+package-list*.txt
+packages-*.txt
+adb-*.txt
+
+# Secrets and local configuration
+.env
+.env.*
+*.local.*
+*.secret
+*credential*
+
+# Temporary and editor files
+.claude/
+.cursor/
+.vscode/
+tmp/
+temp/
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# 本机给 AI 的完整说明，不推送到 GitHub
+README.local.md
+
+# local Chinese notes / version history — not on GitHub
+README.LOCAL.md
+版本记录.md
